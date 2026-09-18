@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nunca te pares | Mi Libro Favorito</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+    </style>
+
+</head>
+
+<body style="background-color:#ececec;">
+
+    <header>
+
+        <h1 id="titulo">Nunca te pares</h1>
+
+        <figure class="portada">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgGGrDubv62ew-GYyOh4ElKgTyohU7lzaWvRQAl55wig&s=10"
+                alt="Portada del libro Nunca te pares">
+
+            <figcaption>
+                Autor: Phil Knight
+            </figcaption>
+
+        </figure>
+
+    </header>
+
+    <main class="libro">
+
+        <section class="sinopsis">
+
+            <h2>Sinopsis</h2>
+
+            <p>
+                "Nunca te pares" cuenta la historia de Phil Knight,
+                fundador de Nike. En este libro explica cómo comenzó
+                su empresa con muy poco dinero, los problemas que tuvo
+                para conseguir proveedores, las dificultades económicas
+                que enfrentó y todas las decisiones que lo llevaron a
+                convertir Nike en una de las marcas deportivas más
+                importantes del mundo.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2>Mi opinión</h2>
+
+            <p id="opinion" class="oculto">
+                Elegí este libro porque me gusta todo lo relacionado
+                con los negocios y el emprendimiento. Lo que más me
+                llamó la atención fue ver que una empresa tan grande
+                como Nike no empezó siendo perfecta. Phil Knight tuvo
+                muchos problemas antes de tener éxito y eso demuestra
+                que para lograr una meta hace falta paciencia,
+                disciplina y no rendirse cuando las cosas salen mal.
+                Es un libro que recomendaría a cualquier persona que
+                quiera crear su propio negocio algún día.
+            </p>
+
+        </section>
+
+        <br>
+
+        <button class="boton" onclick="cambiarTamanoTitulo()">
+            Cambiar tamaño del título
+        </button>
+
+        <button class="boton boton-favorito" onclick="toggleOpinion()">
+            Mostrar / Ocultar opinión
+        </button>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Proyecto realizado por Tomas Luján Gómez | 2026
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
